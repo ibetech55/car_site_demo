@@ -1,0 +1,34 @@
+.terms-condition__line {
+  border-top: 1px solid #e6e6e6;
+}
+.terms-conditions__container {
+  font-family: var(--font-family);
+  margin-top: 2rem;
+  color: #555;
+  font-size: 14px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.terms-conditions__category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.terms-conditions__category p a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1050px) {
+  .terms-conditions__category {
+    display: block;
+  }
+
+  .terms-conditions__category p {
+    line-height: 1.5;
+  }
+}

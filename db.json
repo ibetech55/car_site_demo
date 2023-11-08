@@ -1,0 +1,142 @@
+{
+    "makes": [
+        {
+            "id": "1",
+            "name":"Honda"
+        },
+        {
+            "id": "2",
+            "name":"Toyota"
+        },
+        {
+            "id": "3",
+            "name":"Jeep"
+        },
+        {
+            "id": "4",
+            "name":"Chevrolet"
+        },
+        {
+            "id": "5",
+            "name":"GMC"
+        },
+        {
+            "id": "6",
+            "name":"Dodge"
+        }
+    ],
+    "models": [
+        {
+            "id": "1",
+            "model":"Accord",
+            "make": "Honda"
+        },
+        {
+            "id": "1",
+            "model":"Civic",
+            "make": "Honda"
+        },
+        {
+            "id": "3",
+            "model":"Camry",
+            "make": "Toyota"
+        },
+        {
+            "id": "4",
+            "model":"Corolla",
+            "make": "Toyota"
+        },
+        {
+            "id": "5",
+            "model":"Yukon",
+            "make": "GMC"
+        },
+        {
+            "id": "6",
+            "model":"Terrain",
+            "make": "GMC"
+        },
+        {
+            "id": "6",
+            "model":"Suburban",
+            "make": "Chevrolet"
+        },
+        {
+            "id": "6",
+            "model":"Impala",
+            "make": "Chevrolet"
+        },
+        {
+            "id": "6",
+            "model":"Tahoe",
+            "make": "Chevrolet"
+        },
+        {
+            "id": "6",
+            "model":"Silverado",
+            "make": "Chevrolet"
+        },
+        {
+            "id": "6",
+            "model":"Charger",
+            "make": "Dodge"
+        },
+        {
+            "id": "6",
+            "model":"Compass",
+            "make": "Jeep"
+        },
+        {
+            "id": "6",
+            "model":"Cherokee",
+            "make": "Jeep"
+        },
+        {
+            "id": "6",
+            "model":"Wrangler",
+            "make": "Jeep"
+        }
+    ],
+    "specials": [
+        {
+            "make": "Ford",
+            "model": "Explorer",
+            "price": "24,000",
+            "year": "2022",
+            "transition": "Automatic",
+            "mileage": "1234",
+            "color": "Black",
+            "image": "ford_explorer.webp"
+        },
+        {
+            "make": "GMC",
+            "model": "Terrain",
+            "price": "24,000",
+            "year": "2019",
+            "transition": "Automatic",
+            "mileage": "2333",
+            "color": "Silver",
+            "image": "terrain.jpg"
+        },
+        {
+            "make": "Jeep",
+            "model": "Compass",
+            "price": "27,000",
+            "year": "2020",
+            "transition": "Automatic",
+            "mileage": "5004",
+            "color": "Black",
+            "image": "jeep_compass.jpg"
+        },
+        {
+            "make": "Chevrolet",
+            "model": "Suburban",
+            "price": "14,000",
+            "year": "2019",
+            "transition": "Automatic",
+            "mileage": "32333",
+            "color": "Silver",
+            "image": "chevy_suburban.jpg"
+        }
+    ]
+  }

@@ -1,0 +1,79 @@
+.sign-in__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  font-family: var(--font-family);
+}
+
+.sign-in__image {
+  flex: 2.5;
+  height: 100%;
+  background: url("../../../public/assets/sign-in-image.webp")
+    rgba(3, 27, 52, 0.7);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60% 60%;
+  background-blend-mode: multiply;
+}
+
+form {
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.sign-in__form {
+  flex: 1;
+  height: 100%;
+}
+
+.sign-in__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.sign-in__links {
+  margin-top: 0.5rem;
+}
+
+.sign-in__links {
+  line-height: 1.5;
+  font-size: 12px;
+  text-align: center;
+}
+
+.sign-in__links a:hover {
+  text-decoration: underline;
+}
+
+.sign-in__logo {
+  width: 300px;
+  height: 150px;
+  margin: 0 auto 2rem auto;
+}
+
+.sign-in__logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.sign-in__form h2 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 2rem;
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+@media screen and (max-width: 1050px) {
+  .sign-in__container {
+    display: block;
+  }
+
+  .sign-in__image {
+    display: none;
+  }
+}
